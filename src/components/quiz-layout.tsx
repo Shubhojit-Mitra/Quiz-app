@@ -41,8 +41,6 @@ export function QuizLayout() {
             className={`${
               selectedAnswer === 'Berlin' && selectedAnswer !== correctAnswer
                 ? 'bg-red-500 border-red-500'
-                : correctAnswer === 'Berlin'
-                ? 'bg-green-500 border-green-500'
                 : 'bg-gray-700 hover:bg-gray-600 focus:ring focus:ring-gray-500'
             } rounded-md px-4 py-2 w-full text-left`}
             onClick={() => handleAnswerClick('Berlin')}
@@ -65,8 +63,6 @@ export function QuizLayout() {
             className={`${
               selectedAnswer === 'Madrid' && selectedAnswer !== correctAnswer
                 ? 'bg-red-500 border-red-500'
-                : correctAnswer === 'Madrid'
-                ? 'bg-green-500 border-green-500'
                 : 'bg-gray-700 hover:bg-gray-600 focus:ring focus:ring-gray-500'
             } rounded-md px-4 py-2 w-full text-left`}
             onClick={() => handleAnswerClick('Madrid')}
@@ -78,8 +74,6 @@ export function QuizLayout() {
             className={`${
               selectedAnswer === 'London' && selectedAnswer !== correctAnswer
                 ? 'bg-red-500 border-red-500'
-                : correctAnswer === 'London'
-                ? 'bg-green-500 border-green-500'
                 : 'bg-gray-700 hover:bg-gray-600 focus:ring focus:ring-gray-500'
             } rounded-md px-4 py-2 w-full text-left`}
             onClick={() => handleAnswerClick('London')}
