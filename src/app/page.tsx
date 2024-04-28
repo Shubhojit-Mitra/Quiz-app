@@ -10,6 +10,8 @@ export default function Home() {
       <div>
         <QuizLayout />
       </div>
+      <div className="m-5 flex justify-center text-center">
+    </div>
     </HeroHighlight>
   );
 }

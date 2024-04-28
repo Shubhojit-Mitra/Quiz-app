@@ -20,6 +20,7 @@ To read more about using these font, please visit the Next.js documentation:
 // export function QuizLayout() {
 
 import { useState } from 'react';
+import { BackgroundGradient } from './ui/background-gradient';
 
 export function QuizLayout() {
   const [selectedAnswer, setSelectedAnswer] = useState('');
@@ -30,8 +31,8 @@ export function QuizLayout() {
   };
 
   return (
-    <div className="flex items-center justify-center">
-      <div className="bg-gray-800 rounded-lg shadow-lg p-8 w-full max-w-md">
+    <div>
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <div className="space-y-6">
           <h1 className="text-2xl font-bold">Quiz Question</h1>
           <p className="text-gray-400">What is the capital city of France?</p>
@@ -82,7 +83,7 @@ export function QuizLayout() {
           </button>
           </div>
         </div>
-      </div>
+      </BackgroundGradient>
     </div>
   );
 }
