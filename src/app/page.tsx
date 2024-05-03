@@ -1,6 +1,6 @@
 "use client";
 import { HeroHighlight } from "../components/ui/hero-highlight";
-import { QuizLayout } from "@/components/quiz-layout";
+import { QuizLayout } from "../components/quiz-layout";
 
 export default function Home() {
   return (
