@@ -24,7 +24,7 @@ import { BackgroundGradient } from './ui/background-gradient';
 
 export function QuizLayout() {
   const [selectedAnswer, setSelectedAnswer] = useState('');
-  const correctAnswer = 'Paris';
+  const correctAnswer:string = 'Paris';
 
   const handleAnswerClick = (answer: string) => {
     setSelectedAnswer(answer);
