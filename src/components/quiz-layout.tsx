@@ -34,8 +34,8 @@ export function QuizLayout() {
     <div>
       <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-zinc-900">
         <div className="space-y-6">
-          <h1 className="text-2xl font-bold">Quiz Question</h1>
-          <p className="text-gray-400">What is the capital city of France?</p>
+          <h1 className="text-2xl font-bold color-white">Quiz Question</h1>
+          <p className="text-gray-400 color-white">What is the capital city of France?</p>
           <div className="space-y-4">
           <button
             disabled={!!selectedAnswer}
@@ -43,7 +43,7 @@ export function QuizLayout() {
               selectedAnswer === 'Berlin' && selectedAnswer !== correctAnswer
                 ? 'bg-red-500 border-red-500'
                 : 'bg-gray-700 hover:bg-gray-600 focus:ring focus:ring-gray-500'
-            } rounded-md px-4 py-2 w-full text-left`}
+            } rounded-md px-4 py-2 w-full text-left color-white`}
             onClick={() => handleAnswerClick('Berlin')}
           >
             Berlin
@@ -54,7 +54,7 @@ export function QuizLayout() {
               selectedAnswer === 'Paris'
                 ? 'bg-green-500 border-green-500'
                 : 'bg-gray-700 hover:bg-gray-600 focus:ring focus:ring-gray-500'
-            } rounded-md px-4 py-2 w-full text-left`}
+            } rounded-md px-4 py-2 w-full text-left color-white`}
             onClick={() => handleAnswerClick('Paris')}
           >
             Paris
@@ -65,7 +65,7 @@ export function QuizLayout() {
               selectedAnswer === 'Madrid' && selectedAnswer !== correctAnswer
                 ? 'bg-red-500 border-red-500'
                 : 'bg-gray-700 hover:bg-gray-600 focus:ring focus:ring-gray-500'
-            } rounded-md px-4 py-2 w-full text-left`}
+            } rounded-md px-4 py-2 w-full text-left color-white`}
             onClick={() => handleAnswerClick('Madrid')}
           >
             Madrid
@@ -76,7 +76,7 @@ export function QuizLayout() {
               selectedAnswer === 'London' && selectedAnswer !== correctAnswer
                 ? 'bg-red-500 border-red-500'
                 : 'bg-gray-700 hover:bg-gray-600 focus:ring focus:ring-gray-500'
-            } rounded-md px-4 py-2 w-full text-left`}
+            } rounded-md px-4 py-2 w-full text-left color-white`}
             onClick={() => handleAnswerClick('London')}
           >
             London
