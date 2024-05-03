@@ -32,7 +32,7 @@ export function QuizLayout() {
 
   return (
     <div>
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-zinc-900">
         <div className="space-y-6">
           <h1 className="text-2xl font-bold">Quiz Question</h1>
           <p className="text-gray-400">What is the capital city of France?</p>
